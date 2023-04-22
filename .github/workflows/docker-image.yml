@@ -25,5 +25,5 @@ jobs:
 
       - name: 'Build Inventory Image'
         run: |
-           run: docker build . --file Dockerfile --tag ghcr.io/mmbesar/mkdocs:latest
-           docker push ghcr.io/mmbesar/mkdocs:latest
+          docker build . --tag ghcr.io/mmbesar/mkdocs:latest
+          docker push ghcr.io/mmbesar/mkdocs:latest
